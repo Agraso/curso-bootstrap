@@ -1,0 +1,25 @@
+//------------------------------
+//		PATRON DE COLORES
+//------------------------------
+$text:gray;
+$principal: beige;
+$secondary: black;
+
+//------------------------------
+//		etilos de prueba
+//------------------------------
+html{
+	font-size: 14px;
+}
+
+.container{
+	border: 1px solid blue;
+}
+
+.row{
+	border: 1px solid red;
+}
+.row> *{
+	border: 3px solid green;
+}
+
