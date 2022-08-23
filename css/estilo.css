@@ -10,4 +10,7 @@ html {
 .row > * {
   border: 3px solid green; }
 
+.bg-secondary {
+  background-color: black; }
+
 /*# sourceMappingURL=estilo.css.map */
