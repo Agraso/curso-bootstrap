@@ -13,5 +13,11 @@ html {
 @media (min-width: 800px) {
   html {
     font-size: 16px; } }
+.servicios > * {
+  border: 1px solid yellow; }
+
+.servicios {
+  border: 1px solid salmon;
+  height: 150px; }
 
 /*# sourceMappingURL=estilo.css.map */
