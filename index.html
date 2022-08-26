@@ -14,43 +14,101 @@
     <title>Date con furia</title>
   </head>
   <body>
+<nav class="navbar navbar-dark bg-black navbar-expand-md">
+  <div class="container">
+    <a href="#" class="navbar-brand"><img src="imagen/logo.png" alt="Logo de la empresa" width="150"></a>
+
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+    aria-label="Desplegar menú de navegación" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu-principal">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a href="#" class="nav-link active"">Inicio</a></li>
+        <li class="nav-item"><a href="#ve" class="nav-link"">Nosotros</a></li>
+        <li class="nav-item"><a href="#" class="nav-link disabled"">Contacto</a></li>
+
+      </ul>
+    </div>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
+  </div>
+</nav>
 
 
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cumque, facere laudantium quibusdam deleniti autem minus officia tempore illo eius quos. Repellat delectus asperiores minus voluptate tempore, facilis velit culpa.</p>
 
 
-<div class="ratio ratio-16x9">
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/V2fc6eTCO2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
-
-</div>
-
-<h2>Mapa</h2>
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.5405468933163!2d-66.8311113490958!3d10.457986167812386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2af79428190231%3A0xc13ffcdcbb83aef0!2sC.C.%20Plaza%20Las%20Am%C3%A9ricas%20Segunda%20Etapa!5e0!3m2!1sen!2sve!4v1661394278086!5m2!1sen!2sve" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
 
 
-  <p class="m-2 p-4 border-2 shadow d-block d-sm-none d-md-flex justify-content-center" style="height: 200px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quo voluptatem a, corporis magni illum modi quis maiores nesciunt facilis minima quibusdam rerum quos sapiente quasi. Dignissimos, consequuntur? Eaque, blanditi is!
-    <a href="#" class="border d-block">Enlace 3</a>
-  <a href="#" class="border d-block">Enlace 4</a>
-  </p>
-
-  <a href="#" class="d-block d-sm-none d-md-block border">Enlace 1</a>
-  <a href="#" class="border d-inline-block" style="width: 100px; height: 200px">Enlace 2</a>
 
 
-   <section class="container">
-     <div class="row">
-  
-      <div class="col-6 p-3"><img src="imagen/imagen-grande.jpg" class="img-fluid img-thumbnail" alt=""></div>
-      <div class="col-6"><img src="imagen/man.jpg" class="img-fluid rounded-circle" alt=""></div>
-  
-     </div>
-   </section>
-   
+<section class="container">
+  <div class="row p-4">
 
+
+    <article class="col-sm-6">
+      <div class="border rounded-2 p-4 shadow-sm text-center">
+
+        <h2>Servicios</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias necessitatibus error minus ratione tempora, amet, laboriosam exercitationem beatae voluptatum nisi at, architecto sint saepe incidunt repudiandae repellendus. Velit, saepe soluta?</p>
+        <button type="submit" class="btn btn-outline-secondary btn-block">Ver información</button>
+
+      </div>
+    </article>
+
+    <article class="col-sm-6">
+      <div class="border rounded-2 p-4 shadow-sm">
+
+        <h2>Servicios</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias necessitatibus error minus ratione tempora, amet, laboriosam exercitationem beatae voluptatum nisi at, architecto sint saepe incidunt repudiandae repellendus. Velit, saepe soluta?</p>
+        <button type="submit" class="btn btn-warning btn-lg">Ver información</button>
+
+      </div>
+    </article>
+    
+ 
+  </div>
+</section>
+
+
+  <div class="container">
+    <div class="row p-4 justify-content-center">
+
+      <article class="col-sm-8">
+
+        <div class="border rounded p-4 shadow-sm text-center" id="ve">
+
+          <h2>Servicios</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias placeat dolor ipsa? Rerum, voluptatem facere maiores neque voluptatibus rem suscipit ratione odio aspernatur in. Tempore vitae illo ipsam iste?</p>
+          
+          <button type="button" class="btn btn-outline-info" data-bs-toggle="collapse" data-bs-target="#victima" aria-expanded="false" aria-controls="victima">Ver documentación</button>
+
+          <div class="collapse" id="victima">
+            <div class="my-3 p-3 rounded-4 bg-success text-white text-start">
+              <h3>PASOS PARA INSCRIBIRSE</h3>
+              <ol>
+                <li>Iniciar sesión</li>
+                <li>Ir a panel de control</li>
+                <li>Descargar ficha</li>
+              </ol>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta pariatur asperiores ab laborum. Ut voluptatum excepturi sunt a temporibus! Quisquam veritatis, atque totam eum magni praesentium omnis. Nobis, impedit vel.</p>
+
+              <p class="text-center">
+                <a role="button" href="#victima" class="btn btn-secondary" data-bs-toggle="collapse" aria-expanded="true" aria-controls="victima">Cerrar</a>
+              </p>
+           </div>
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+  </div>
 
 
 
